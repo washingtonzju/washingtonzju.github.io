@@ -2,9 +2,11 @@
 
 ### Contact
 
-www.linkedin.com/in/zhongkai-mi-81731017
-(425)658-6765
-zhongkai.mi@gmail.com
+[Zhongkai on LinkedIn](https://www.linkedin.com/in/zhongkai-mi-81731017)
+
+(425) 658-6765  
+
+[zhongkai.mi\@gmail.com](mailto:zhongkai.mi@gmail.com)
 
 ## Experience
 
