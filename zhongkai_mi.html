@@ -9,9 +9,10 @@
     <script>
       fetch('zhongkai_mi.md')
         .then(response => response.text())
-        .then(markdown => {
+        .then(markdown => { 
+          var md = window.markdownit();
           var html = md.render(markdown);
-          document.getElementById('markdown').innerHTML = html; 
+          document.getElementById('markdown').innerHTML = html;
         });
     </script>
   </body>
