@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Zhongkai Mi's Resume</title>
+  <script src="https://unpkg.com/markdown-it@12.0.2/dist/markdown-it.min.js"></script>
+</head>
+<body>
+
+  <div id="markdown"></div>
+
+  <script>
+    var md = window.markdownit();
+    var markdown = fs.readFileSync('zhongkai_mi.md', 'utf-8');
+    var html = md.render(markdown);
+    
+    document.getElementById('markdown').innerHTML = html;
+  </script>
+
+</body>
+</html>
